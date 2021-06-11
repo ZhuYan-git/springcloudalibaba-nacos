@@ -1,0 +1,16 @@
+#端口
+server:
+  port: 7070
+
+#应用名称
+spring:
+  application:
+    name: product-service
+#注册中心
+  cloud:
+    nacos:
+      discovery:
+        enabled: true  #是否作为注册中心 false 不使用nacos进行服务注册和服务发现
+        server-addr: 192.168.10.100:8848 #注册中心地址
+
+

@@ -1,0 +1,13 @@
+#端口
+server:
+  port: 9090
+#应用名称
+spring:
+  application:
+    name: order-service
+#注册中心配置
+  cloud:
+    nacos:
+      discovery:
+        enabled: true
+        server-addr: 127.0.0.1:8848
