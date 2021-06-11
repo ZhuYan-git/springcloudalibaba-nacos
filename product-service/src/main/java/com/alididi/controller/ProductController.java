@@ -14,7 +14,7 @@ import java.util.List;
 public class ProductController {
 
     @Value("${server.port}")
-    public String port2;
+    public String portOfter;
 
 
     @Value("${server.port}")
