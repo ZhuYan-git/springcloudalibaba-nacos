@@ -17,6 +17,9 @@ public class ProductController {
 
     public String portOfter;
 
+    public String portLaster;
+
+
 
     @Value("${server.port}")
     public String port;
